@@ -1,5 +1,5 @@
 <?php
-include "koneksi.php";
+include "backend/koneksi.php";
 $result = mysqli_query($conn, "SELECT * FROM anggota");
 ?>
 <!DOCTYPE html>
